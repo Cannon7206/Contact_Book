@@ -33,7 +33,7 @@ int main() {
     book.LoadContactsFromFile();
     while (flag == true) {
         std::cout << "Select an option:" << std::endl << "(a to add a contact, r to remove a contact, l to list a contact," <<
-            " s to save changes, q to exit)" << std::endl;
+            " q to exit)" << std::endl;
         std::cin >> value;
         switch (value) {
             case 'a': {
@@ -48,12 +48,9 @@ int main() {
                 book.listContacts();
                 break;
             }
-            case 's': {
-                book.SaveAllToFile();
-                break;
-            }
             case 'q': {
                 flag = false;
+                book.SaveAllToFile();
                 break;
             }
             default: {
