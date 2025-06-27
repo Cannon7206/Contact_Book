@@ -1,6 +1,9 @@
 //
 // Created by christian on 6/27/25.
 //
+
+#ifndef CONTACT_H
+#define CONTACT_H
 class Contact{
     private:
     std::string name;
@@ -106,7 +109,4 @@ public:
 
 
 };
-#ifndef CONTACT_H
-#define CONTACT_H
-
 #endif //CONTACT_H
