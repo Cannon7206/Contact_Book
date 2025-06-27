@@ -69,7 +69,8 @@ public:
     void listContacts() const {
         int number = 1;
         for (const auto contact : contacts) {
-            std::cout << number << ". " << contact->getName() << " " << contact->getPhone() << " " << contact->getEmail() << std::endl;
+            std::cout << number << ". " << contact->getName() << " "
+            << contact->getPhone() << " " << contact->getEmail() << std::endl;
             number++;
         }
     }
