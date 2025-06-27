@@ -3,6 +3,8 @@
 #include <fstream>
 #include <memory>
 #include "Contact.h"
+#include "Main Window.h"
+#include <QApplication>
 // Contact class
 
 ContactBook book;
