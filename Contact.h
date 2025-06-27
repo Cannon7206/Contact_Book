@@ -4,6 +4,9 @@
 
 #ifndef CONTACT_H
 #define CONTACT_H
+#include <sstream>
+#include <utility>
+#include <vector>
 class Contact{
     private:
     std::string name;

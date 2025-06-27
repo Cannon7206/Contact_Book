@@ -2,9 +2,6 @@
 #include <string>
 #include <fstream>
 #include <memory>
-#include <sstream>
-#include <utility>
-#include <vector>
 #include "Contact.h"
 // Contact class
 
