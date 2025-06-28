@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <memory>
 #include "Contact.h"
 // Contact class
 
@@ -59,6 +58,5 @@ int main() {
             }
         }
     }
-    return 0;
 }
 

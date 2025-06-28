@@ -4,6 +4,7 @@
 
 #ifndef CONTACT_H
 #define CONTACT_H
+#include <memory>
 #include <sstream>
 #include <utility>
 #include <vector>
