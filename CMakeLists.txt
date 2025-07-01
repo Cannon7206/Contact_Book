@@ -19,7 +19,7 @@ add_executable(Contact_Book main.cpp
         "ContactBook.h"
         MainWindow.cpp)
 
-target_link_libraries(Contact_Book
+target_link_libraries(Contact_Book PRIVATE
         Qt::Core
         Qt::Widgets
 )
