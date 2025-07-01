@@ -15,9 +15,9 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(Contact_Book main.cpp
-        "MainWindow.cpp"
         "MainWindow.h"
-        "ContactBook.h")
+        "ContactBook.h"
+        MainWindow.cpp)
 
 target_link_libraries(Contact_Book
         Qt::Core
